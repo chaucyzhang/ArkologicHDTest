@@ -1,0 +1,18 @@
+root { 
+    display: block;
+}
+
+#seemoreBtn{
+    margin: auto;
+    text-align: center;
+    width:600px;
+    height:30px;
+    border:1px solid #CEE1EE;
+    background-color: #F0F5F8;
+    cursor: pointer;
+}
+#seemoreBtn:hover{
+    background-color: #CEE1FF;
+    
+}
+#navi{text-align: center;}

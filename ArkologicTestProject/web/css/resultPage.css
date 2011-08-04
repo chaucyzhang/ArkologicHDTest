@@ -1,0 +1,11 @@
+root { 
+    display: block;
+}
+#chart_div{
+    width: 1024px;
+    margin:auto;
+}
+#changeChartType{
+    text-align: center;
+    margin:auto;
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2011-7-27 13:04:18 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="arkologictest" name="Models.Diskstatistics" table="diskstatistics">
+    <id name="iddiskstatistics" type="java.lang.Integer">
+      <column name="iddiskstatistics"/>
+      <generator class="identity"/>
+    </id>
+    <property name="device" type="string">
+      <column length="45" name="device"/>
+    </property>
+    <property name="rps" type="java.lang.Float">
+      <column name="rps" precision="12" scale="0"/>
+    </property>
+    <property name="wps" type="java.lang.Float">
+      <column name="wps" precision="12" scale="0"/>
+    </property>
+    <property name="krps" type="java.lang.Float">
+      <column name="krps" precision="12" scale="0"/>
+    </property>
+    <property name="kwps" type="java.lang.Float">
+      <column name="kwps" precision="12" scale="0"/>
+    </property>
+    <property name="wait" type="java.lang.Float">
+      <column name="wait" precision="12" scale="0"/>
+    </property>
+    <property name="actv" type="java.lang.Float">
+      <column name="actv" precision="12" scale="0"/>
+    </property>
+    <property name="svct" type="java.lang.Float">
+      <column name="svct" precision="12" scale="0"/>
+    </property>
+    <property name="w" type="java.lang.Integer">
+      <column name="w"/>
+    </property>
+    <property name="b" type="java.lang.Integer">
+      <column name="b"/>
+    </property>
+    <property name="createtime" type="timestamp">
+      <column length="19" name="createtime"/>
+    </property>
+  </class>
+</hibernate-mapping>
